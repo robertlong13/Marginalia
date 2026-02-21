@@ -14,6 +14,9 @@ const pageTitle = title ? `${title} — Marginalia` : 'Marginalia';
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{pageTitle}</title>
     <link rel="alternate" type="application/rss+xml" title="Marginalia" href="/rss.xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet" />
     <script is:inline>
       (function () {
         const pref = localStorage.getItem('theme');
@@ -94,8 +97,8 @@ const pageTitle = title ? `${title} — Marginalia` : 'Marginalia';
 
 <style is:global>
   :root {
-    --font-body: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia,
-      serif;
+    --font-body: 'Spectral', Georgia, 'Iowan Old Style', serif;
+    --font-heading: system-ui, -apple-system, 'Segoe UI', sans-serif;
     --font-mono: 'Berkeley Mono', 'Fira Code', Consolas, monospace;
     --color-bg: #faf8f4;
     --color-surface: #ffffff;
@@ -153,7 +156,8 @@ const pageTitle = title ? `${title} — Marginalia` : 'Marginalia';
     max-width: var(--max-width);
     margin: 0 auto;
     padding: 2rem 1rem;
-    line-height: 1.65;
+    line-height: 1.75;
+    letter-spacing: 0.01em;
   }
 
   header {
@@ -194,8 +198,10 @@ const pageTitle = title ? `${title} — Marginalia` : 'Marginalia';
   :root[data-theme='light'] .icon-moon { display: inline; }
 
   .site-title {
+    font-family: var(--font-heading);
     font-size: 1.1rem;
     font-style: italic;
+    font-weight: 300;
     color: var(--color-muted);
     text-decoration: none;
     letter-spacing: 0.02em;
@@ -209,9 +215,14 @@ const pageTitle = title ? `${title} — Marginalia` : 'Marginalia';
     min-height: 60vh;
   }
 
+  h1, h2, h3 {
+    font-family: var(--font-heading);
+    letter-spacing: 0;
+  }
+
   h1 {
     font-size: 1.6rem;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 1.3;
     margin: 0 0 0.5rem;
   }
