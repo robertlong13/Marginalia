@@ -1,0 +1,34 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+
+const posts = (await getCollection('posts')).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+---
+
+<Base>
+  <section class="intro">
+    <p>
+      Scattered commentary on things I've been reading, watching, building,
+      or otherwise thinking too hard about. Not a blog. Not a journal.
+      Just notes in the margins.
+    </p>
+  </section>
+  <hr />
+  <ul class="post-list">
+    {posts.map((post) => (
+      <li>
+        <time class="post-date" datetime={post.data.date.toISOString()}>
+          {post.data.date.toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric',
+          })}
+        </time>
+        <br />
+        <a href={`/posts/${post.id}/`}>{post.data.title}</a>
+      </li>
+    ))}
+  </ul>
+</Base>
