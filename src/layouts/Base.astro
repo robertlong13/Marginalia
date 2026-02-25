@@ -287,6 +287,17 @@ const pageTitle = title ? `${title} — Marginalia` : 'Marginalia';
     height: auto;
   }
 
+  .invertible {
+    display: block;
+    margin: 1.5rem auto;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .invertible { filter: invert(1) hue-rotate(180deg) contrast(0.85) brightness(0.9); }
+  }
+  :root[data-theme='dark'] .invertible { filter: invert(1) hue-rotate(180deg) contrast(0.85) brightness(0.9); }
+  :root[data-theme='light'] .invertible { filter: none; }
+
   footer {
     margin-top: 4rem;
   }
