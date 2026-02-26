@@ -62,11 +62,11 @@ edition](https://books.google.com.au/books?id=y9tLAAAAIAAJ&pg=PA79&redir_esc=y#v
 
 Let's look at the opening paragraph:
 
-<img src="./images/hansel-grimm-1857.png" class="invertible" lang="de" alt="Vor
-einem großen Walde wohnte ein armer Holzhacker mit seiner Frau und seinen zwei
-Kindern; das Bübchen hieß Hänsel und das Mädchen Gretel. Er hatte wenig zu
-beißen und zu brechen, und einmal, als große Teuerung ins Land kam, konnte er
-das tägliche Brot nicht mehr schaffen">
+<div class="invertible" lang="de">
+
+![Vor einem großen Walde wohnte ein armer Holzhacker mit seiner Frau und seinen zwei Kindern; das Bübchen hieß Hänsel und das Mädchen Gretel. Er hatte wenig zu beißen und zu brechen, und einmal, als große Teuerung ins Land kam, konnte er das tägliche Brot nicht mehr schaffen](./images/hansel-grimm-1857.png)
+
+</div>
 
 Taking the [translation from folklorist D. L.
 Ashliman](https://sites.pitt.edu/~dash/grimm015a.html):
