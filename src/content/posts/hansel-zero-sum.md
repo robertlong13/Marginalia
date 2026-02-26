@@ -77,7 +77,8 @@ Ashliman](https://sites.pitt.edu/~dash/grimm015a.html):
 
 The key word here in the original German is *große Teuerung*, which I gotta
 shoot straight here, doesn't necessarily translate to "great famine". The Grimm
-brothers didn't use the word *Hungersnot*.
+brothers didn't use the word *Hungersnot*, so maybe it was just extreme
+inflation?
 
 [Another translation I
 found](https://www.grimmstories.com/language.php?grimm=015&l=de&r=en) puts it
@@ -87,10 +88,9 @@ like this:
 > little to bite or to sup, and once, when there was great dearth in the land,
 > the man could not even gain the daily bread.
 
-So maybe it was just extreme inflation? I'm going to choose to take the famine
-interpretation here, but at the end, I invite you to re-analyze the
-micro-economics of the inflation interpretation and see if it changes the
-outcome; I'm going to casually assert it doesn't.
+I'm going to choose to take the famine interpretation here, but at the end, I
+invite you to re-analyze the micro-economics of the inflation interpretation and
+see if it changes the outcome; I'm going to casually assert it doesn't.
 
 ## The Ending
 
