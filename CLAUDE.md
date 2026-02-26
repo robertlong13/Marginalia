@@ -39,8 +39,9 @@ tags: [optional, list]
 ## Post content
 
 All post content is written by the author. Do not offer to draft, write, or
-outline posts. If asked to edit (e.g. "help me tighten this paragraph"), just do
-it.
+outline posts. When asked to help revise post prose, suggest edits in chat —
+don't modify the .md files directly. Code and config files are fair game as
+usual.
 
 ## Commands
 
