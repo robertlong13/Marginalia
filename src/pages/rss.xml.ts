@@ -13,7 +13,7 @@ export async function GET(context: APIContext) {
       .map((post) => ({
         title: post.data.title,
         pubDate: post.data.date,
-        link: `/posts/${post.id}/`,
+        link: `${import.meta.env.BASE_URL}/posts/${post.id}/`,
       })),
   });
 }
