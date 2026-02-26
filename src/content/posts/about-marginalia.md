@@ -33,7 +33,7 @@ and no specific purpose.
 
 > Kerry: I bet he's thinking about other women
 
-![thinking about other women meme](/images/thinking-about-other-women.webp)
+![thinking about other women meme](./images/thinking-about-other-women.webp)
 
 > Me: So the Zuckermans decide to spare Wilbur's life after winning $25...
 > that's kinda low, even if we're talking the 1950s. That's what, a few hundred
