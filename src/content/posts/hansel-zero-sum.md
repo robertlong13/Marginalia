@@ -62,7 +62,11 @@ edition](https://books.google.com.au/books?id=y9tLAAAAIAAJ&pg=PA79&redir_esc=y#v
 
 Let's look at the opening paragraph:
 
-<img src="/images/hansel-grimm-1857.png" class="invertible" alt="...">
+<img src="/images/hansel-grimm-1857.png" class="invertible" lang="de" alt="Vor
+einem großen Walde wohnte ein armer Holzhacker mit seiner Frau und seinen zwei
+Kindern; das Bübchen hieß Hänsel und das Mädchen Gretel. Er hatte wenig zu
+beißen und zu brechen, und einmal, als große Teuerung ins Land kam, konnte er
+das tägliche Brot nicht mehr schaffen">
 
 Taking the [translation from folklorist D. L.
 Ashliman](https://sites.pitt.edu/~dash/grimm015a.html):
@@ -111,9 +115,10 @@ an end to their hunger, but living in surplus.
 
 And this is my problem. This is a famine. Gretel rocking up with an apron full
 of jewels doesn't create more food in their community: there simply isn't enough
-grain in their town to feed everyone. This merely gives them the power to outbid
-their neighbors. They weren't saved from starvation&mdash;they jumped the queue.
-But I think it's probably worse.
+grain in their town to feed everyone. Every loaf of bread they buy is a loaf of
+bread that someone else will not be able to have. The jewels merely give them
+the power to outbid their neighbors and jump the queue. But I think it's
+probably worse.
 
 I'd wager the difference between the "brink of starvation" and "lauter Freude"
 [is at least a factor of
