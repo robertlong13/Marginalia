@@ -64,6 +64,10 @@ const pageTitle = title ? `${title} — Marginalia` : 'Marginalia';
           </p>
         </div>
       )}
+      <p class="subscribe">
+        <a href={`${import.meta.env.BASE_URL}/rss.xml`}>RSS</a> ·
+        <a href={`https://blogtrottr.com/?subscribe=${new URL(`${import.meta.env.BASE_URL}/rss.xml`, Astro.site)}`}>Subscribe by email</a>
+      </p>
     </footer>
     <script is:inline>
       document.getElementById('theme-toggle').addEventListener('click', function () {
@@ -366,5 +370,11 @@ const pageTitle = title ? `${title} — Marginalia` : 'Marginalia';
 
   .post-body p {
     margin: 1rem 0;
+  }
+
+  .subscribe {
+    color: var(--color-muted);
+    font-size: 0.85rem;
+    text-align: right;
   }
 </style>
