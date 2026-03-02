@@ -30,9 +30,8 @@ who rightly don't remember 100% of it for more than 30 days after hearing it:
   - Medication: help! I think we're stuck in *another* acrostic
   - Pertinent history: wait, what? No, you can't make the adjective the word
     in these things! You'll lose the important part: "history"
-  - Last time you ate or drank anything, or [maybe also the last time you had
-    your period](https://en.wikipedia.org/wiki/SAMPLE_history): okay, now I KNOW
-    you are fucking with me.
+  - Last time you ate or drank anything: okay, now I KNOW you are fucking with
+    me.
   - Events leading up: this couldn't have used up the above "L" for "lead-up"???
 - Send for help: call 000 (or 911 for my fellow yanks) or ask a bystander to do
   it.
